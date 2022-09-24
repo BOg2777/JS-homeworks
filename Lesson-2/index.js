@@ -29,3 +29,10 @@ if (a > 0) {
 }else {
     console.log('Неверно');
 }
+//Пятое задание
+let b = 2;
+a = 10;
+console.log(a + b, a - b, a * b, a / b);
+if (a + b > 1) {
+    console.log((a + b)**2);
+}
