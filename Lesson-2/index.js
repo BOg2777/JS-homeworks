@@ -90,3 +90,65 @@ if (years === 0 && months !== 0) {
 }else {
     console.log('Колличество лет', years,'Колличество месяцев',  months,'Колличество недель',  weeks,'Колличество часов',  hours,'Колличество минут',  minuts,'Колличество секунд',  sec);
 }
+//Десятое задание
+day = 154;
+let season;
+if (day >= 0 && day <= 31) {
+    console.log('Сейчас январь (первый месяц)');
+    season = 1;
+}else if (day >= 32 && day <= 60) {
+    console.log('Сейчас февраль (второй месяц)');
+    season = 2;
+}else if (day >= 61 && day <= 91) {
+    console.log('Сейчас март (третьий месяц)');
+    season = 3;
+}else if (day >= 92 && day <= 121) {
+    console.log('Сейчас апрель (четвертый месяц)');
+    season = 4;
+}else if (day >= 121 && day <= 152) {
+    console.log('Сейчас май (пятый месяц)');
+    season = 5;
+}else if (day >= 152 && day <= 182) {
+    console.log('Сейчас июнь (шестой месяц)');
+    season = 6;
+}else if (day >= 182 && day <= 213) {
+    console.log('Сейчас июль (седьмой месяц)');
+    season = 7;
+}else if (day >= 213 && day <= 243) {
+    console.log('Сейчас август (восьмой месяц)');
+    season = 8;
+}else if (day >= 243 && day <= 274) {
+    console.log('Сейчас сентябрь (девятый месяц)');
+    season = 9;
+}else if (day >= 274 && day <= 304) {
+    console.log('Сейчас октябрь (десятый месяц)');
+    season = 10;
+}else if (day >= 304 && day <= 335) {
+    console.log('Сейчас ноябрь (одинадцатый месяц)');
+    season = 11;
+}else if (day >= 335 && day <= 365) {
+    console.log('Сейчас декабрь (двенадцатый месяц)');
+    season = 12;
+}
+switch (season) {
+    case 12:
+    case 1:
+    case 2:
+        console.log('Сейчас зима');
+    break;
+    case 3:
+    case 4:
+    case 5:
+        console.log('Сейчас весна');
+    break;
+    case 6:
+    case 7:
+    case 8:
+        console.log('Сейчас лето');
+    break;
+    case 9:
+    case 10:
+    case 11:
+         console.log('Сейчас осень');
+    break;
+}
