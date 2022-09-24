@@ -51,3 +51,15 @@ let S = 2000000,
     years = 5,
     Pereplata = S*p*years;
 console.log('Переплата за 5 лет с годовой ставкой 10% равна',  Pereplata);
+//Восьмой пункт
+a = 8;
+b = 3;
+//a+2(x-b)=16;
+let x = (16 + 2*b - a) / 2;
+console.log('a+2(x-b)=16, x = ', x);
+//b(x+15)=a+6x;
+x = (a - 15*b) / (b - 6);
+console.log('b(x+15)=a+6x, x = ', x);
+//x+2x+ax+bx=23780
+x = 23780 / (1 + 2 + a + b);
+console.log('x+2x+ax+bx=23780, x = ', x);
