@@ -31,3 +31,7 @@ let width = 23,
     height = 10,
     SPryam = width*height;
 console.log('Площадь прямоугольника равна',  SPryam, 'см.');
+//Четвертый пункт
+let h = 10;
+    VCilindra = 3.14/4*h**2*a7;
+console.log('Обьем цилиндра равен', VCilindra, 'метров кубических');
