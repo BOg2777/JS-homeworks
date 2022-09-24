@@ -66,3 +66,27 @@ if (day >= 1 && day <= 10) {
 }else {
     console.log('Неверное число');
 }
+//Девятое задние
+let days = 6,
+    years,
+    months,
+    weeks,
+    hours,
+    minuts,
+    sec;
+years = (days - days % 365) / 365;
+months = (days - days % 31) / 31;
+weeks = (days - days % 7) / 7;
+hours = days * 24;
+minuts = days * 24 * 60;
+sec = days * 24 * 60 * 60;
+if (years === 0 && months !== 0) {
+    console.log('Меньше года');
+}else if (months === 0 && weeks !== 0) {
+    console.log('Меньше месяца');
+}else if (weeks === 0) {
+    console.log('Меньше недели');
+    console.log('Колличество часов',  hours,'Колличество минут',  minuts,'Колличество секунд',  sec);
+}else {
+    console.log('Колличество лет', years,'Колличество месяцев',  months,'Колличество недель',  weeks,'Колличество часов',  hours,'Колличество минут',  minuts,'Колличество секунд',  sec);
+}
