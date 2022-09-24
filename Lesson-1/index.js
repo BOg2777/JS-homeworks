@@ -26,3 +26,8 @@ let a1 = 5 % 3,
     a18 = true > 0;
 console.log(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18 );
 console.log(typeof a1,typeof a2,typeof a3,typeof a4,typeof a5,typeof a6,typeof a7,typeof a8,typeof a9,typeof a10,typeof a11,typeof  a12,typeof  a13,typeof  a14,typeof  a15,typeof  a16,typeof a17,typeof  a18);
+//Третий пункт
+let width = 23,
+    height = 10,
+    SPryam = width*height;
+console.log('Площадь прямоугольника равна',  SPryam, 'см.');
