@@ -45,3 +45,9 @@ let a = 5,
 h = 10;
 let STrap = 1/2*(a+b)*h;
 console.log('Площадь трапеции равна', STrap, 'сантиметров квадратных.');
+//Седьмой пункт
+let S = 2000000,
+    p = 0.1,
+    years = 5,
+    Pereplata = S*p*years;
+console.log('Переплата за 5 лет с годовой ставкой 10% равна',  Pereplata);
