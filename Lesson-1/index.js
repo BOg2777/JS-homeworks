@@ -63,3 +63,15 @@ console.log('b(x+15)=a+6x, x = ', x);
 //x+2x+ax+bx=23780
 x = 23780 / (1 + 2 + a + b);
 console.log('x+2x+ax+bx=23780, x = ', x);
+//Девтый пункт
+console.log('');
+console.log('Бывало, спит у ног собака,');
+console.log('костер занявшийся гудит,');
+console.log('и женщина из полумрака');
+console.log('глазами зыбкими глядит.');
+console.log('');
+console.log('Потом под пихтою приляжет');
+console.log('на куртку рыжую мою');
+console.log('и мне, задумчивая, скажет:');
+console.log('');
+console.log('"А ну-ка, спой!.."- и я пою.');
