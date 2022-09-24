@@ -36,3 +36,9 @@ console.log(a + b, a - b, a * b, a / b);
 if (a + b > 1) {
     console.log((a + b)**2);
 }
+// Шестое задание
+if (a > 2 && a < 11 || b >= 6 && b < 14) {
+    console.log('Верно');
+}else {
+    console.log('Неверно');
+}
