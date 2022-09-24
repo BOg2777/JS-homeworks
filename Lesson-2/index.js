@@ -22,4 +22,10 @@ if (x1 + x2 + x3 === x4 + x5 + x6 ){
 }else{
     console.log('Нет');
 }
-
+//Четвертое задание
+let a = 1;
+if (a > 0) {
+    console.log('Верно');
+}else {
+    console.log('Неверно');
+}
