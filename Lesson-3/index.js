@@ -12,8 +12,14 @@ while(i >= 11){
     i--;
 }*/
 //Третье задание
-let sum = 0;
+/*let sum = 0;
 for(let i = 0; i <= 100; i++){
     sum += i;
 }
-console.log(sum);
+console.log(sum);*/
+//Четвертое задание
+let sum = 0;
+for(let i = 0; i <= 5; i++){
+    sum += i;
+    console.log(sum);
+}
