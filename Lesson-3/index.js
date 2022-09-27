@@ -43,7 +43,7 @@ for(let i = 2; i <= 10; i++){
     for(let j = 2; j <= 10; j++){
         console.log(i, '*', j, '=', i*j);
     }
-}*/
+}
 //Седьмое задание
 let num = 0,
     n = 1000;
@@ -51,4 +51,19 @@ for(n = 1000; n >= 50; n = n / 2){
     num++;
 }
 console.log('Получилось число =', n);
-console.log('Количество операций = ', num);
+console.log('Количество операций = ', num);*/
+//Восьмое задание
+let sum = 0,
+    sr = 0,
+    i = 0;
+for(let x = prompt('Введите число'); Number(x) != 0 & x != ''; x = prompt('Введите число')){
+    if(Number(x) == x){
+        i++;
+        sum += Number(x);
+        sr = sum / i;
+    }else{
+        console.log('Ошибка');
+        break;
+    }
+}
+console.log('Сумма чисел = ', sum, 'Среднее арифметическое =', sr)
