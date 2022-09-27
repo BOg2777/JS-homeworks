@@ -37,10 +37,18 @@ for(i = 8; i <= 56; i++){
     if(i % 2 === 0){
         console.log(i);
     }
-}*/
+}
 //Шестое задание
 for(let i = 2; i <= 10; i++){
     for(let j = 2; j <= 10; j++){
         console.log(i, '*', j, '=', i*j);
     }
+}*/
+//Седьмое задание
+let num = 0,
+    n = 1000;
+for(n = 1000; n >= 50; n = n / 2){
+    num++;
 }
+console.log('Получилось число =', n);
+console.log('Количество операций = ', num);
