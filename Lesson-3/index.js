@@ -51,7 +51,7 @@ for(n = 1000; n >= 50; n = n / 2){
     num++;
 }
 console.log('Получилось число =', n);
-console.log('Количество операций = ', num);*/
+console.log('Количество операций = ', num);
 //Восьмое задание
 let sum = 0,
     sr = 0,
@@ -66,4 +66,31 @@ for(let x = prompt('Введите число'); Number(x) != 0 & x != ''; x = p
         break;
     }
 }
-console.log('Сумма чисел = ', sum, 'Среднее арифметическое =', sr)
+console.log('Сумма чисел = ', sum, 'Среднее арифметическое =', sr)*/
+//Девятое задание
+let x = '4 98 4 6 1 32 4 65 4 3 5 7 89 7 10 1 36 8 57',
+    y = 0,
+    max = -Infinity,
+    min = Infinity;
+for(let i = 0; i < x.length - 1; i++) {
+    if(x[i+1] == ' ') {
+        y = x[i];
+    }else {
+        y = x[i] + x[i+1];
+    }
+    if (y >= max){
+        max = y;
+    }
+}
+console.log('Максимальное число = ', max)
+for(let i = 0; i < x.length - 1; i++) {
+    if(x[i+1] == ' ') {
+        y = x[i];
+    }else {
+        y = x[i] + x[i+1];
+    }
+    if (y <= min){
+        min = y;
+    }
+}
+console.log('Минимальное число = ', min)
