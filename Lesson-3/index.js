@@ -22,7 +22,7 @@ let sum = 0;
 for(let i = 0; i <= 5; i++){
     sum += i;
     console.log(sum);
-}*/
+}
 //Пятое задание
 //while
 let i = 8;
@@ -36,5 +36,11 @@ while(i <= 56){
 for(i = 8; i <= 56; i++){
     if(i % 2 === 0){
         console.log(i);
+    }
+}*/
+//Шестое задание
+for(let i = 2; i <= 10; i++){
+    for(let j = 2; j <= 10; j++){
+        console.log(i, '*', j, '=', i*j);
     }
 }
