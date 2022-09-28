@@ -66,7 +66,7 @@ for(let x = prompt('Введите число'); Number(x) != 0 & x != ''; x = p
         break;
     }
 }
-console.log('Сумма чисел = ', sum, 'Среднее арифметическое =', sr)*/
+console.log('Сумма чисел = ', sum, 'Среднее арифметическое =', sr)
 //Девятое задание
 let x = '4 98 4 6 1 32 4 65 4 3 5 7 89 7 10 1 36 8 57',
     y = 0,
@@ -93,4 +93,26 @@ for(let i = 0; i < x.length - 1; i++) {
         min = y;
     }
 }
-console.log('Минимальное число = ', min)
+console.log('Минимальное число = ', min);*/
+//Десятое задание
+let i = 0,
+    x = 0,
+    n = 123,
+    sum = 0,
+    j = '',
+    a = [],
+    b = [];
+for(; (n / (10 ** i)) > 1; i++){
+    x = i +1 ;
+}
+console.log('Колличество цифр = ', x);
+for(i = 0; i < x; i++) {
+    a[i] = String(n)[i];
+    sum += Number(a[i]);
+}
+console.log(sum);
+for(i = x-1; i >= 0; i--){
+    a[i] = String(n)[i];
+    j += a[i];
+}
+console.log(j);
