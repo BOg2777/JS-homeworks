@@ -107,9 +107,10 @@ for(; (n / (10 ** i)) > 1; i++){
 console.log('Колличество цифр = ', x);
 for(i = 0; i < x; i++) {
     a[i] = String(n)[i];
+    console.log(a[i]);
     sum += Number(a[i]);
 }
-console.log(sum);
+console.log('Cумма чисел = ', sum);
 for(i = x-1; i >= 0; i--){
     a[i] = String(n)[i];
     j += a[i];
