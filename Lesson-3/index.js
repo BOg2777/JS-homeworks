@@ -114,4 +114,4 @@ for(i = x-1; i >= 0; i--){
     a[i] = String(n)[i];
     j += a[i];
 }
-console.log(j);
+console.log(Number(j));
