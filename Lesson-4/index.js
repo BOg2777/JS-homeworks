@@ -30,9 +30,18 @@ for(i = 0; i < b.length; i++){
 }
 console.log(result);*/
 //Четвертое задание
-let a = ['10', '20', '30', '50', '235', '3000'];
+/*let a = ['10', '20', '30', '50', '235', '3000'];
 for(let i = 0; i < a.length; i++){
     if(a[i][0] == 1 || a[i][0] == 2 || a[i][0] == 5){
         console.log(a[i]);
+    }
+}*/
+//Пятое задание
+let days = ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПН', 'СБ', 'ВС'];
+for(let i = 0; i < days.length; i++){
+    if(days[i] == 'СБ' || days[i] == 'ВС'){
+        document.write('<b>' + days[i] + '</b>' + '</br>');
+    }else {
+        document.write(days[i] + '</br>');
     }
 }
