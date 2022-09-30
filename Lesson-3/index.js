@@ -56,7 +56,7 @@ console.log('Количество операций = ', num);
 let sum = 0,
     sr = 0,
     i = 0;
-for(let x = prompt('Введите число'); Number(x) != 0 & x != ''; x = prompt('Введите число')){
+for(let x = prompt('Введите число'); Number(x) != 0 && x != ''; x = prompt('Введите число')){
     if(Number(x) == x){
         i++;
         sum += Number(x);

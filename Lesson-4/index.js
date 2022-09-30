@@ -46,6 +46,17 @@ for(let i = 0; i < days.length; i++){
     }
 }*/
 //Шестое задание
-let a = ['11' , '231'];
+/*let a = ['11' , '231'];
 a[a.length] = 'I';
+console.log(a);*/
+//Седьмое задание
+let a = [];
+for(let x = prompt('Введите число');x != ''; x = prompt('Введите число')){
+    a.push(x);
+}
+console.log(a);
+function sort(x,y){
+    return x - y;
+}
+a.sort(sort);
 console.log(a);
