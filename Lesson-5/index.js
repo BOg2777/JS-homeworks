@@ -40,7 +40,7 @@ function output(){
 input(10,15);
 output();*/
 //Пятое задание
-function  isEven(x1){
+/*function  isEven(x1){
     if(x1 % 2 == 0) return true;
     else return false;
 }
@@ -60,4 +60,23 @@ function ar(){
 }
 arr();
 ar();
-console.log(arr2);
+console.log(arr2);*/
+//Седьмое задание
+function pyramid(x1,x2){
+    if(x2 == null){
+        for(let i = 1; i <= x1; i++){
+            for(let j = 1; j <= i; j++){
+                document.write(i);
+            }
+            document.write('</br>');
+        }
+    }else{
+        for(let i = 1; i <= x1; i++){
+            for(let j = 1; j <= i; j++){
+                document.write(x2);
+            }
+            document.write('</br>');
+        }
+    }
+}
+pyramid(9,'+');
