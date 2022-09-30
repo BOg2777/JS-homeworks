@@ -79,7 +79,7 @@ for(let i = 0; i < a.length; i++){
 }
 console.log(count);*/
 //Десятое задание
-let a = [1,8,0,13,76,8,7,0,22,0,2,3,2],
+/*let a = [1,8,0,13,76,8,7,0,22,0,2,3,2],
     count0 = 0;
 for(let i = 0; i < a.length; i++){
     if(a[i] == 0){
@@ -96,4 +96,27 @@ if(count0 < 2){
         sum += a[i];
     }
     console.log(sum);
+}*/
+//Одиннадцатое задание 
+/*for( let i = 1; i <= x; i++){
+    for( let j = 1; j <= i; j++){
+        for(let y = 1; y <= j; y++){
+            document.write('1')
+        }
+        document.write('^');
+    }
+    document.write('</br>')
+}*/
+/*let x = prompt('Введите высоту');
+function tr(x){
+    for( let i = x; i >= 1; i--){
+        for( let j = x; j >= i; j--){
+            for(let y = j; y >= j; y--){
+                document.write('')
+            }
+            document.write('^');
+        }
+        document.write('</br>')
+    }
 }
+tr(x);*/
