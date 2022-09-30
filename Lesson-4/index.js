@@ -61,11 +61,20 @@ function sort(x,y){
 a.sort(sort);
 console.log(a);*/
 //Восьмое задание
-let a = [12, false, 'Текст', 4, 2, -5, 0],
+/*let a = [12, false, 'Текст', 4, 2, -5, 0],
     i = a.length;
 while(i > 0){
     i--;
     console.log(a[i]);
 }
 a.reverse();
-console.log(a);
+console.log(a);*/
+//Девятое задание
+let a = [5, 9, 21, , , 9, 78, , , , 6],
+    count = 0;
+for(let i = 0; i < a.length; i++){
+    if(a[i] == null){
+        count++;
+    }
+}
+console.log(count);
