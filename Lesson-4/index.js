@@ -70,11 +70,30 @@ while(i > 0){
 a.reverse();
 console.log(a);*/
 //Девятое задание
-let a = [5, 9, 21, , , 9, 78, , , , 6],
+/*let a = [5, 9, 21, , , 9, 78, , , , 6],
     count = 0;
 for(let i = 0; i < a.length; i++){
     if(a[i] == null){
         count++;
     }
 }
-console.log(count);
+console.log(count);*/
+//Десятое задание
+let a = [1,8,0,13,76,8,7,0,22,0,2,3,2],
+    count0 = 0;
+for(let i = 0; i < a.length; i++){
+    if(a[i] == 0){
+        count0++;
+    }
+}
+if(count0 < 2){
+    console.log('В массиве количество 0 меньше 2')
+}else{
+    let first = a.indexOf(0),
+        second = a.lastIndexOf(0),
+        sum = 0;
+    for(let i = first; i < second; i++){
+        sum += a[i];
+    }
+    console.log(sum);
+}
