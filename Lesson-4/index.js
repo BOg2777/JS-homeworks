@@ -37,11 +37,15 @@ for(let i = 0; i < a.length; i++){
     }
 }*/
 //Пятое задание
-let days = ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПН', 'СБ', 'ВС'];
+/*let days = ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПН', 'СБ', 'ВС'];
 for(let i = 0; i < days.length; i++){
     if(days[i] == 'СБ' || days[i] == 'ВС'){
         document.write('<b>' + days[i] + '</b>' + '</br>');
     }else {
         document.write(days[i] + '</br>');
     }
-}
+}*/
+//Шестое задание
+let a = ['11' , '231'];
+a[a.length] = 'I';
+console.log(a);
