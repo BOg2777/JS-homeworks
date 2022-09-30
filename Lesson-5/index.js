@@ -24,7 +24,7 @@ function max(x1,x2){
 console.log(min(a,b));
 console.log(max(a,b));*/
 //Четвертое задание
-let a = [];
+/*let a = [];
 function input(x1,x2){
     x1 = prompt('Введите первое число диапазона')
     x2 = prompt('Введите последнее число диапазона')
@@ -38,4 +38,10 @@ function output(){
     }
 }
 input(10,15);
-output();
+output();*/
+//Пятое задание
+function  isEven(x1){
+    if(x1 % 2 == 0) return true;
+    else return false;
+}
+console.log( isEven(11));
