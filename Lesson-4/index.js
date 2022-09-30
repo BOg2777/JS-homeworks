@@ -50,7 +50,7 @@ for(let i = 0; i < days.length; i++){
 a[a.length] = 'I';
 console.log(a);*/
 //Седьмое задание
-let a = [];
+/*let a = [];
 for(let x = prompt('Введите число');x != ''; x = prompt('Введите число')){
     a.push(x);
 }
@@ -59,4 +59,13 @@ function sort(x,y){
     return x - y;
 }
 a.sort(sort);
+console.log(a);*/
+//Восьмое задание
+let a = [12, false, 'Текст', 4, 2, -5, 0],
+    i = a.length;
+while(i > 0){
+    i--;
+    console.log(a[i]);
+}
+a.reverse();
 console.log(a);
