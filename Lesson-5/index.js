@@ -45,3 +45,19 @@ function  isEven(x1){
     else return false;
 }
 console.log( isEven(11));
+//Шестое задание
+let arr1 = [],
+    arr2 = [];
+function arr(){
+    for(let i = 0; i <= 10; i++){
+        arr1[i] = i;
+    }
+}
+function ar(){
+    for(let i = 0; i < arr1.length; i++){
+        if(isEven(arr1[i])) arr2.push(arr1[i])
+    }
+}
+arr();
+ar();
+console.log(arr2);
