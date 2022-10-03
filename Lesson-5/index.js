@@ -92,7 +92,7 @@ pyramid(9,'+');*/
 pyramid(2);*/
 //Девятое задание
 /*function Fibonachi(){
-    let arr = [1,1],
+    let arr = [0,1,1],
         x1 = 1,
         x2 = 1,
         x3 = 0;
@@ -110,7 +110,7 @@ Fibonachi();*/
 //ОДиннадцатое задание
 /*let i = 0;
 function arr(x){
-    if(i != x.length){
+    if(i < x.length){
         console.log(x[i]);
         i++;
         arr(x);

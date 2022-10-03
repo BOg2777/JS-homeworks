@@ -98,7 +98,8 @@ if(count0 < 2){
     console.log(sum);
 }*/
 //Одиннадцатое задание 
-/*for( let i = 1; i <= x; i++){
+/*let x = prompt('Введите высоту');
+for( let i = 1; i <= x; i++){
     for( let j = 1; j <= i; j++){
         for(let y = 1; y <= j; y++){
             document.write('1')
@@ -106,8 +107,7 @@ if(count0 < 2){
         document.write('^');
     }
     document.write('</br>')
-}*/
-/*let x = prompt('Введите высоту');
+}
 function tr(x){
     for( let i = x; i >= 1; i--){
         for( let j = x; j >= i; j--){
