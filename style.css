@@ -1,0 +1,20 @@
+#in{
+    background-color: yellow;
+    width: 87%;
+    height: 30px;
+}
+#add{
+    background-color: red;
+    width: 70px;
+    height: 37px;
+}
+#out1{
+    margin-top: 0px;
+}
+.out{
+    margin-top: 0px;
+    color: aqua;
+    background-color: green;
+    border: 10px;
+    border-radius: 5px;
+}
