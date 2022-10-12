@@ -17,17 +17,17 @@ window.onload = function(){
     function out(){
         let text = document.getElementById('in').value;
         let out = document.createElement("input");
-        out.classList.add('out');
+        out.classList.add('wrapperout');
         out.type = 'text';
         out.value = text;
         out.setAttribute('readonly', true);
         for(let key in todolist){
             out.value = todolist[key].todo;
-            my_div = document.getElementById("out1");
+            my_div = document.getElementById("toDoList");
             my_div.appendChild(out); 
         }
         let divOut = document.createElement('div');
-        divOut.classList.add('wrapperout');
+        divOut.classList.add('task');
         divOut.appendChild(out); 
         let btnEdit = document.createElement('button');
         btnEdit.innerHTML = 'Edit';
@@ -38,7 +38,7 @@ window.onload = function(){
         divBtns.appendChild(btnEdit);
         divBtns.appendChild(btnDel);
         divOut.appendChild(divBtns); 
-        my_div = document.getElementById("out1");
+        my_div = document.getElementById("toDoList");
         my_div.appendChild(divOut);
         window.location.reload()
     }
@@ -46,12 +46,12 @@ window.onload = function(){
         for(let key in todolist){
             text= todolist[key].todo;
             let out2 = document.createElement("input");
-            out2.classList.add('out');
+            out2.classList.add('wrapperout');
             out2.type = 'text';
             out2.value = text;
             out2.setAttribute('readonly', true);
             let divOut = document.createElement('div');
-            divOut.classList.add('wrapperout');
+            divOut.classList.add('task');
             divOut.appendChild(out2); 
             let btnEdit = document.createElement('button');
             btnEdit.innerHTML = 'Edit';
@@ -62,7 +62,7 @@ window.onload = function(){
             divBtns.appendChild(btnEdit);
             divBtns.appendChild(btnDel);
             divOut.appendChild(divBtns); 
-            my_div = document.getElementById("out1");
+            my_div = document.getElementById("toDoList");
             my_div.appendChild(divOut); 
             btnEdit.addEventListener('click', function () {
                 if (btnEdit.innerText.toLowerCase() == 'edit') {
