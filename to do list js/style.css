@@ -9,12 +9,23 @@
     height: 37px;
 }
 #out1{
+    width: 260px;
     margin-top: 0px;
 }
 .out{
-    margin-top: 0px;
     color: aqua;
     background-color: green;
     border: 10px;
     border-radius: 5px;
+    width: 200px;
+}
+.wrapperout{
+    display: flex;
+    margin-top: 10px;
+    background-color: blue;
+}
+.wrapperBtn{
+    width: 100%;
+    color: aqua;
+    background-color: green;
 }
