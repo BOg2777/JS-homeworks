@@ -1,0 +1,107 @@
+*{
+    font-family: "Baloo Tamma 2", cursive;
+}
+body{
+    background: linear-gradient(45deg, #eecfba, #c5dde8);
+    text-align: center;
+    align-items: center;
+}
+h1{
+    color: white;
+}
+.all{
+    position: absolute;
+    left: 25%;
+    width: 600px;
+    height: auto;
+    text-align: center;
+    align-items: center;
+}
+.startInformation{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 600px;
+    height: 85px;
+}
+.startValue{
+    padding-top: 15px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.startInput{
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.startBtn{
+    margin-top: 5px;
+    width: 65px;
+    height: 30px;
+    background-color: grey;
+    border-radius: 5px;
+    border: none;
+}
+.main{
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+.mainLeft{
+    width: 50%;
+    padding-left: 20px;
+    text-align: left;
+}
+h2{
+    font-size:  20px;
+    font-weight: normal;
+}
+.mainTextTitle{
+    font-weight: bold;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.mainInput{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 90%;
+}
+.mainBtn{
+    margin-top: 5px;
+    width: 65px;
+    height: 30px;
+    background-color: grey;
+    border-radius: 5px;
+    border: none;
+}
+.mainRight{
+    width: 50%;
+    text-align: left;
+}
+.mainBudget{
+    background-color: lightskyblue;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+.mainLeftBudget{
+    background-color: #45f16a;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+.mainExpenses{
+    margin-bottom: 0px;
+}
+.shoppingList{
+    margin-top: 0px;
+    font-style: italic;
+}
+.buyList{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
