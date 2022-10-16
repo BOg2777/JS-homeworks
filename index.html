@@ -14,10 +14,10 @@
         <div class="headerName">
             <h1>My Weekly Budget</h1>
         </div>
-        <div class="startInformation">
+        <div class="startInformation" id="startInformation">
             <div class="startValue">
-                <input class="startInput" type="text" placeholder="Enter a Weekly Budget Ammount">
-                <button class="startBtn">Enter</button>
+                <input class="startInput" id="startInput" type="text" placeholder="Enter a Weekly Budget Ammount">
+                <button class="startBtn" id="startBtn">Enter</button>
             </div>
         </div>
         <div class="main">
@@ -25,22 +25,20 @@
                 <div class="mainHeader">
                     <h2>Add your daily expences:</h2>
                 </div>
-                <div class="mainText">
+                <div class="mainText" id="mainText">
                     <p class="mainTextTitle">Name:</p>
-                    <input class="mainInput" type="text" placeholder="Ex: Groceries">
+                    <input class="mainInput" type="text" id="mainInputName" placeholder="Ex: Groceries">
                     <p class="mainTextTitle">Price:</p>
-                    <input class="mainInput" type="text" placeholder="Ex: 230">
+                    <input class="mainInput" id="mainInputPrice" type="text" placeholder="Ex: 230">
                     </br>
-                    <button class="mainBtn">Add</button>
+                    <button class="mainBtn" id="mainBtn">Add</button>
                 </div>
             </div>
             <div class="mainRight">
-                <p class="mainBudget">Budget: $</p>
-                <p class="mainLeftBudget">Left: $</p>
+                <p class="mainBudget" id="mainBudget">Budget: $</p>
+                <p class="mainLeftBudget" id="mainLeftBudget">Left: $</p>
                 <p class="mainExpenses">My expenses:</p>
-                <div class="shoppingList">
-                    <p class="buyList">1231231231 : $123123123</p>
-                    <p class="buyList">1231231231 : $123123123</p>
+                <div class="shoppingList" id="shoppingList">
                 </div>
             </div>
         </div>
