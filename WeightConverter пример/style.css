@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.mainApp{
+    margin: 0 auto;
+    height: 200px;
+    background-color: rgb(251, 215, 31);
+    text-align: center;
+}
+h1{
+    padding: 10px 0px 40px;
+    font-size: 2rem;
+    font-weight: 300;
+    color: white;
+}
+
+input{
+width: 60%;
+height: 30px;
+background-color: rgb(251, 215, 31);
+border: 2px solid black;
+border-radius: 30px;
+outline: none;
+padding-left: 10px;
+
+}
+
+select{
+    height: 30px;
+    background-color:black;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+}
+
+.outputInfo{
+margin-top: 20px;
+font-weight: 300;
+font-size: 16px;
+color: white;
+background-color: black;
+display: inline-block;
+width: auto;
+padding: 10px;
+border-radius: 30px;
+}
