@@ -63,7 +63,7 @@ function makeQuestion(target){
   }else {
     if(i == questionsText.length){
       let p = document.createElement('p');
-      p.innerText = 'Количество правильных ответов = ' + count;
+      p.innerText = 'Количество правильных ответов = ' + count + '/6';
       correct.appendChild(p);
     }
   }
