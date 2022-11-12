@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans JP", sans-serif;
+    transition: all 0.3s ease;
+    font-family: Tahoma,verdana,sans-serif;
+    color: #a8a8a8;
+  } 
+body {
+    background: url(./../../images/IronMan3.webp)50%0 no-repeat #000;
+}
+h1,
+h2 {
+    color: white;
+}
+h2 {
+    font-size: 1.2rem;
+}
+  
+.header {
+    height: 33px;
+    background-color: #000;
+    padding: 10px 10px;
+    padding-left: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+}
+.searchInputWrapper {
+    margin: 0 auto;
+    font-size: 14px;
+    color: black;
+    position: relative;
+    
+}
+.searchInput {
+    min-width: 240px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #6B6B6B;
+    background: #505050;
+    outline: none;
+    padding: 0 4px;
+    color: #eee;
+}
+.resault {
+    height: auto;
+    width: 100%;
+    color: red;
+}
+.searchResult {
+    padding: 10px;
+}
+.moviesList {
+    width: auto;
+    height: auto;
+    padding: 10;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.wrapperMovie{
+    margin: 0px 0px 0px 0px;
+    margin-right: 30px;
+    padding: 0px;
+    width: 250px;
+    min-height: 350px;
+}
+.imgMovie{
+    width: 250px;
+    height: 250px;
+}
+.pageBtn{
+    display: none;
+    justify-content: space-between;
+    width: auto;
+    height: 40px;
+}
+.prevPageImg{
+    height: 40px;
+}
+.nextPageImg{
+    height: 40px;
+}
+#btn{
+    outline: none; 
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #6B6B6B;
+    background: #505050;
+    outline: none;
+    padding: 0 4px;
+    color: #eee;
+}
+.idFilm{
+    display: none;
+}
