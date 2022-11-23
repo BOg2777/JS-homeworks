@@ -1,0 +1,9 @@
+.title{
+    height: 44px;
+    color: red;
+    background-color: green;
+    border: 10px;
+    width: 250px;
+    font-style: italic;
+    margin-top: 10px;
+}
